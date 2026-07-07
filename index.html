@@ -78,8 +78,7 @@ Hire Me
 
 <div class="hero-image">
 
-<img src="1.jpg" alt="">
-
+<img src="1.jpg" alt="" >
 </div>
 
 </section>
@@ -494,6 +493,20 @@ Send Message
 </button>
 
 <script src="script.js"></script>
+<!--chatbot
+<div id="chatbot"></div>
+
+<link rel="stylesheet" href="chatbot/chatbot.css">
+
+<script>
+fetch("chatbot/chatbot.html")
+.then(response => response.text())
+.then(data => {
+    document.getElementById("chatbot").innerHTML = data;
+});
+</script>-->
+
+<script src="chatbot/chatbot.js"></script>
 
 </body>
 </html>
